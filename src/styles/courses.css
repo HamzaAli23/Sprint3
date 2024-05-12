@@ -1,0 +1,120 @@
+/* Base styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background: #005A9C;
+    color: #fff;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation bar styles */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+nav ul li {
+    font-size: 18px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+/* course intro and payment info styles */
+.course-intro, .payment-info {
+    text-align: center;
+    padding: 50px 10%;
+}
+
+.course-details img {
+    width: 100%; /* Make images fill the container */
+    max-width: 300px; /* Limit image size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px 0; /* Add some spacing around the image */
+}
+
+.course-details div {
+    padding: 10px; /* Padding inside each accordion panel for spacing */
+}
+
+.course {
+    width: 30%;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.course img {
+    max-width: 100%;
+    height: auto;
+}
+
+.course h3 {
+    color: #005A9C;
+}
+
+.course h4 {
+    color: #062e15;
+    font-weight: bold;
+}
+
+.payment-info h2 {
+    color: #005A9C;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Social Icons styles */
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.footer .social-icons img {
+    max-width: 100%;
+    height: auto;
+}

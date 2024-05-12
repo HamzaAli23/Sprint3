@@ -1,0 +1,100 @@
+/* Base styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background: #005A9C;
+    color: #fff;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation bar styles */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+nav ul li {
+    font-size: 18px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+/* Hero section styles */
+
+.about-hero {
+    background: #EFEFEF;
+    padding: 50px 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.about-content {
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+}
+
+.about-content div {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #005A9C;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Social Icons styles */
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.footer .social-icons img {
+    max-width: 100%;
+    height: auto;
+}

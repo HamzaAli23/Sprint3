@@ -1,0 +1,155 @@
+/* Base styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #005A9C;
+    color: #ffffff;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation bar styles */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+nav ul li {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 50px 10%;
+}
+
+/* Section base styles */
+section {
+    padding: 50px 10%;
+}
+
+/* About section styles */
+.about {
+    background-color: #f0f0f0;
+}
+
+/* Courses section styles - Adjustments for bxSlider */
+.featured-courses ul {
+    padding: 0;
+    margin: 0;
+}
+
+.featured-courses li {
+    list-style: none;
+}
+
+.featured-courses .course {
+    width: 100%; /* Full width for each slide */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.featured-courses img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* bxSlider specific styles to ensure proper display */
+.bx-wrapper {
+    box-shadow: none;
+    border: none;
+    left: 0;
+    background: none;
+}
+
+.bx-viewport {
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.bx-pager, .bx-controls-auto {
+    top: -50px;
+}
+
+/* Call to action styles */
+.cta {
+    background-color: #005A9C;
+    color: #ffffff;
+    text-align: center;
+}
+
+.cta .btn {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Social Icons styles */
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.footer .social-icons img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* WhatsApp Chat Styles */
+#whatsapp-chat {
+    position: absolute;
+    top: 160%;
+    right: 5px;
+    z-index: 100;
+}

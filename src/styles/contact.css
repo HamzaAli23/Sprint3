@@ -1,0 +1,157 @@
+/* Base styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background: #005A9C;
+    color: #fff;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation bar styles */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+nav ul li {
+    font-size: 18px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+/*contact info styles*/
+.contact-info {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.contact-info h1 {
+    margin-bottom: 20px;
+    color: #005A9C;
+}
+
+.contact-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Social Icons styles */
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.footer .social-icons img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* General styling for the contact section */
+.contact-section {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact-section h3 {
+    color: #333;
+    text-align: center;
+}
+
+/* Styling for form groups to space out the inputs */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Style for labels for better readability */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Unified styling for all text inputs and the textarea */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Makes padding not affect the width */
+}
+
+/* Styling for the submit button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for button */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the success message */
+#success-message {
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+}
+
